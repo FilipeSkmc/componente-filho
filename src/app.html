@@ -1,0 +1,32 @@
+<!--
+  <c-app></c-app>
+-->
+<template>
+  <lightning-card>
+    <div class="slds-m-around_medium">
+      <h1 class="slds-text-heading_large">Componentes Filhos</h1>
+      <!--
+        componente chamado empresa.html
+      -->
+
+      <!-- passar valores para o componente  via atributo -->
+      <c-empresa nome="Pamonhas de Piracicapa" cnpj="00011122211111"></c-empresa>
+
+      <c-empresa nome="Vassouras Nimbus 2077" cnpj="12345678977"></c-empresa>
+
+      <c-empresa nome="Beco do Cutuvelo LTDA" cnpj="32165498788"></c-empresa>
+
+      <!-- 
+        criar um componente chamado produto.html || js
+
+        h1 - Produto X
+        p -> Preço: R$ X
+        p-> Descrição: X
+        p-> Em estoque? X
+
+        Renderize o componente em app.html
+      -->
+      <c-produto></c-produto>
+    </div>
+  </lightning-card>
+</template>

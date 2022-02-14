@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/filipeskmc.componente-filho",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve SJLN0GWeuAkdTAKqAjfw --open"
+  }
+}
